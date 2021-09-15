@@ -1,7 +1,6 @@
 package com.ifms.controle_de_estoque.movimentoVenda;
 
 import java.math.BigDecimal;
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;

@@ -3,8 +3,8 @@ package com.ifms.controle_de_estoque.pessoas;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
-import javax.persistence.Id;
 import com.ifms.controle_de_estoque.infos.Pessoa;
+import javax.persistence.Id;
 
 @Entity
 public class Cliente {

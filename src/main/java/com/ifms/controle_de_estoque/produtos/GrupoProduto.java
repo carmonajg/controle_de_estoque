@@ -11,6 +11,7 @@ public class GrupoProduto {
 	@Id @GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	private String nome;
+	private Produto produto;
 	
 	@Override
 	public boolean equals(Object obj) {
@@ -37,5 +38,12 @@ public class GrupoProduto {
 
 	public void setNome(String nome) {
 		this.nome = nome;
+	}
+	public Produto getProduto() {
+		return produto;
+	}
+
+	public void setProduto(Produto produto) {
+		this.produto = produto;
 	}
 }
